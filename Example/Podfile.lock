@@ -1,0 +1,16 @@
+PODS:
+  - ApiCodableModels (0.1.0)
+
+DEPENDENCIES:
+  - ApiCodableModels (from `../`)
+
+EXTERNAL SOURCES:
+  ApiCodableModels:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApiCodableModels: 4331d27b2306d37a4d539ad946757b4bb6b61a3a
+
+PODFILE CHECKSUM: 6177af31a2e71ce9f3428ae8bc25469f2c33d754
+
+COCOAPODS: 1.5.3

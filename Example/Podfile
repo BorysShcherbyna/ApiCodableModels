@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ApiCodableModels_Tests' do
+  pod 'ApiCodableModels', :path => '../'
+  
+  
+end

@@ -1,0 +1,22 @@
+{
+  "name": "ApiCodableModels",
+  "version": "0.1.0",
+  "summary": "A short description of ApiCodableModels.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BorysShcherbyna/ApiCodableModels",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BorysShcherbyna": "borys.shcherbyna@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BorysShcherbyna/ApiCodableModels.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ApiCodableModels/Classes/**/*"
+}
