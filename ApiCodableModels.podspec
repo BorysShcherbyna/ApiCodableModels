@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ApiCodableModels'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ApiCodableModels.'
+  s.summary          = 'ApiCodableModels contains models required for API methods'
   
 
 # This description is used to generate tags and improve search results.
