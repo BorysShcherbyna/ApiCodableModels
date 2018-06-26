@@ -8,15 +8,15 @@
 
 import Foundation
 
-struct UploadInstruction: Codable {
+public struct UploadInstruction: Codable {
     
-    var creatorUserId: String
-    var length: Int
-    var publicURL: String
-    var type: String
-    var uploadMethod: String
-    var uploadURL: String
-    var uploadHeaders: [String: String]
+    public var creatorUserId: String
+    public var length: Int
+    public var publicURL: String
+    public var type: String
+    public var uploadMethod: String
+    public var uploadURL: String
+    public var uploadHeaders: [String: String]
     
     enum CodingKeys: String, CodingKey {
         
