@@ -11,7 +11,7 @@
 		591E4AC7244B0B25A049839F0BD83149 /* Pods-ApiCodableModels_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 535D4683B946420706FD286F4B4B9952 /* Pods-ApiCodableModels_Tests-dummy.m */; };
 		5EAC435D13DB034629FDCA4EAFD74DC0 /* ApiCodableModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F66819E15CFC0FC01E9BC514DB2F9B /* ApiCodableModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84EE92B720E2952C00C0FCA5 /* LezgroInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE92B620E2952C00C0FCA5 /* LezgroInstruction.swift */; };
-		84EE92B920E2953E00C0FCA5 /* LezgroToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE92B820E2953E00C0FCA5 /* LezgroToken.swift */; };
+		84EE92B920E2953E00C0FCA5 /* LezgroSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE92B820E2953E00C0FCA5 /* LezgroSession.swift */; };
 		84EE92BF20E371E800C0FCA5 /* LezgroAuthCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE92BE20E371E800C0FCA5 /* LezgroAuthCredentials.swift */; };
 		9DA0BCC7D4E4555ACEC864975DDF5ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C062F7AA3E6FE17BB5F99D267C230E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -43,7 +43,7 @@
 		6D6C6AA2645233E6B66B9BE068D6C92C /* ApiCodableModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApiCodableModels.modulemap; sourceTree = "<group>"; };
 		70DCA5D4E6EE2F0A668750C1B1798967 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EE92B620E2952C00C0FCA5 /* LezgroInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LezgroInstruction.swift; path = ApiCodableModels/Classes/LezgroInstruction.swift; sourceTree = "<group>"; };
-		84EE92B820E2953E00C0FCA5 /* LezgroToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LezgroToken.swift; path = ApiCodableModels/Classes/LezgroToken.swift; sourceTree = "<group>"; };
+		84EE92B820E2953E00C0FCA5 /* LezgroSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LezgroSession.swift; path = ApiCodableModels/Classes/LezgroSession.swift; sourceTree = "<group>"; };
 		84EE92BE20E371E800C0FCA5 /* LezgroAuthCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LezgroAuthCredentials.swift; path = ApiCodableModels/Classes/LezgroAuthCredentials.swift; sourceTree = "<group>"; };
 		852D7A58288763752FFD01A6AD1EC1D2 /* Pods_ApiCodableModels_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiCodableModels_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2B805208B5C60B535367FEA3AE0A69 /* ApiCodableModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApiCodableModels-dummy.m"; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				84EE92B620E2952C00C0FCA5 /* LezgroInstruction.swift */,
-				84EE92B820E2953E00C0FCA5 /* LezgroToken.swift */,
+				84EE92B820E2953E00C0FCA5 /* LezgroSession.swift */,
 				84EE92BE20E371E800C0FCA5 /* LezgroAuthCredentials.swift */,
 				6EC9C6DE13294E206BD90E7931222D5F /* Pod */,
 				41D01DCD0164B1D96A78DE894F6A8C19 /* Support Files */,
@@ -281,7 +281,7 @@
 				25B24EDB2223995F34CF33288F1CB159 /* ApiCodableModels-dummy.m in Sources */,
 				84EE92BF20E371E800C0FCA5 /* LezgroAuthCredentials.swift in Sources */,
 				84EE92B720E2952C00C0FCA5 /* LezgroInstruction.swift in Sources */,
-				84EE92B920E2953E00C0FCA5 /* LezgroToken.swift in Sources */,
+				84EE92B920E2953E00C0FCA5 /* LezgroSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

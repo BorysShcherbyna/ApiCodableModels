@@ -7,19 +7,19 @@
 
 import Foundation
 
-public enum TokenStatus: String {
+public enum SessionStatus: String {
     case approved
     case pending
     case undefined
 }
 
-public struct Token: Codable {
+public struct Session: Codable {
     
     public var companyId: Int?
     public var userId: String?
     public var isAdmin: String?
     public var status: TokenStatus? {
-        return TokenStatus(rawValue: statusString)
+        return SessionStatus(rawValue: statusString)
     }
     
     private var statusString: String
