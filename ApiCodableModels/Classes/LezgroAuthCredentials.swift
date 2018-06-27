@@ -9,12 +9,22 @@ import Foundation
 
 public struct AuthCredentials: Codable {
     
-    public var apiKey: String
-    public var apiToken: String
+    public var key: String
+    public var token: String
 
+    public init(key: String, token: String) {
+        self.key = key
+        self.token = token
+    }
+    
+    public static func generate() -> AuthCredentials {
+        let randomToken = UUID().uuidString
+        let randomKey = UUID().uuidString.replacingOccurrences(of: "-", with: "").lowercased()
+        return AuthCredentials(key: randomKey, token: randomToken)
+    }
+    
     enum CodingKeys: String, CodingKey {
-        
-        case apiKey
-        case apiToken
+        case key
+        case token
     }
 }
