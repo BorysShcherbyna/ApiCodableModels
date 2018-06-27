@@ -17,10 +17,10 @@ public struct AuthCredentials: Codable {
         self.token = token
     }
     
-    public static func generate() -> AuthCredentials {
-        let randomToken = UUID().uuidString
+    public init() {
         let randomKey = UUID().uuidString.replacingOccurrences(of: "-", with: "").lowercased()
-        return AuthCredentials(key: randomKey, token: randomToken)
+        let randomToken = UUID().uuidString
+        self.init(key: randomKey, token: randomToken)
     }
     
     enum CodingKeys: String, CodingKey {
